@@ -1,0 +1,486 @@
+/* Autor: Tomáš Musil Autoservis Elen - Černovice*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Sora", sans-serif;
+}
+
+body {
+    background-color: #F8F8FF;
+}
+
+/* Navbar - Autoservis Elen Černovice */
+
+.navbar {
+    background: #24262b;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__phoner {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar__phoner:hover {
+    color: #ed1d24;
+    transition: all 0.3s ease;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.navbar__phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 150%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #ed1d24;
+    color: #fff;
+}
+
+.button:hover {
+    background: hsl(207, 85%, 52%);
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+    color: #ed1d24;
+    transition: all 0.3s ease;
+}
+
+
+
+/*  heropage - Autoservis Elen Černovice */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.img--hero {
+    width: 100%;
+    height: auto;
+    filter: brightness(25%);
+}
+
+.img--text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+
+}
+
+.textik {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* textove pole - Autoservis Elen Černovice */
+
+#Nadpis {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#strongek {
+    font-size: 2rem;
+}
+
+.textove_pole {
+    width: 70%;
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+}
+
+.textove_pole video {
+    border-radius: 8px;
+}
+ul {
+    font-size: 1.1rem;
+    padding-left: 3rem;
+}
+
+#odkazek {
+    color: #ed1d24;
+    text-decoration: none;
+}
+
+
+/* Footer - Autoservis Elen - Černovice */
+/* Footer - Autoservis Elen Černovice */
+
+.footer__container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__container ul {
+    list-style: none;
+    padding-left: 0rem;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ed1d24;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/* BottomPage - Autoservis Elen Černovice */
+
+.close_logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.close_logo img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.close_logo h2 {
+    color: #ed1d24;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 3.5%;
+    margin-left: 0.5rem;
+}
+
+/* Copyright rights - Autoservis Elen Černovice */
+
+.website__right {
+
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+.e {
+    width: 100%;
+    text-align: center;
+}
+
+.website__right::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ed1d24;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+
+.website__right:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.mapa {
+    background-color: #24262b;
+}
+
+
+/* Animace - Autoservis Elen Černovice */
+.website__right:hover {
+    transition: all 0.35s ease-in-out;
+    text-decoration: underline;
+}
+
+.close_logo img:hover {
+    transition: all 0.45s ease-in-out;
+    transform: scale(1.075);
+}
+
+.close_logo h2:hover {
+    transition: all 0.35s ease-in-out;
+    color: hsl(207, 85%, 52%);
+}
+
+/* responsivita - Autoservis Elen Černovice */
+
+@media screen and (max-width: 960px) {
+
+    /* Navbar - Autoservis Elen Černovice */
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
+    .navbar__phone {
+        width: 100%;
+    }
+
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: all 0.5s ease;
+        height: 50vh;
+        z-index: -1;
+        background: #131313;
+    }
+
+    .navbar__menu.active {
+        background: #131313;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 50vh;
+        font-size: 1.6rem;
+    }
+
+    #navbar__logo {
+        padding-left: 25px;
+    }
+
+    .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: #fff;
+    }
+
+    .navbar__item {
+        width: 100%;
+    }
+
+    .navbar__links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .navbar__btn {
+        padding-bottom: 2rem;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@media(max-width: 767px) {
+
+    /* Footer - Autoservis Elen Černovice */
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+
+    /* Footer - Autoservis Elen Černovice */
+    .footer-col {
+        width: 100%;
+    }
+}

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="cs">
+<!-- Autor: Tomáš Musil - Autoservis Elen Šlapanice -->
+
+<head>
+    <meta author="Tomáš Musil, Jiří Pölzer - Autoservis Elen Šlapanice">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoservis Elen - Šlapanice</title>
+    <!-- Css - Autoservis Elen Šlapanice -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- JS - Autoservis Elen Šlapanice -->
+    <script src="js/index.js" defer></script>
+    <!-- Site logo - Autoservis Elen Šlapanice -->
+    <link rel="shortcut icon" href="pictures/logo.png" type="image/x-icon" alt="Autoservis Elen - Šlapanice Logo">
+    <!-- Font Awesome - Autoservis Elen Šlapanice  -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Google Icons - Autoservis Elen Šlapanice -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=build" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person" />
+
+</head>
+
+<body>
+    <!-- Navbar - Autoservis Elen Šlapanice -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <img id="navbar__logo" src="pictures/logo.png" alt="Autoservis Elen - Šlapanice">
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#domu-Slapanice" class="navbar__links">Domů</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#nabidka-Slapanice" class="navbar__links">Nabídka</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#info-Slapanice" class="button">Kontakt</a>
+                </li>
+                <li class="navbar__phone">
+                    <a href="tel+420739356696 " class="navbar__phoner">+ 420 739 356 696</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HeroPage - Autoservis Elen Šlapanice -->
+    <section id="domu-Slapanice"></section>
+    <div class="hero__container">
+        <div class="hero__content">
+            <h1>Autoservis Elen - Šlapanice</h1>
+            <p>Zabýváme se veškerými mechanickými opravami vozidel všech značek. Neváhejte se na nás obrátit s
+                jakýmkoliv dotazem či problémem. Rádi Vám pomůžeme.</p>
+            <a href="#info-Slapanice" class="tlacitko"><button type="submit">Přečist</button></a>
+        </div>
+        <div class="main__img--container">
+            <img src="pictures/hero_photo.svg" alt="Autoservis Elen - Šlapanice">
+        </div>
+    </div>
+
+    <!-- Experience - Autoservis Elen Šlapanice -->
+    <section id="zkusenosti-Slapanice"></section>
+    <div class="counters">
+        <div>
+            <div class="counter">
+                <h1><span class="cislo" data-count="7" alt="AutoServis Šlapanice - Zkušenosti"></span> Let</h1>
+                <h3>Zkušenosti</h3>
+            </div>
+            <div class="counter">
+                <h1>+ <span class="cislo" data-count="250" alt="AutoServis Šlapanice - Počet Zákazníků"></span></h1>
+                <h3>Zákazníci</h3>
+            </div>
+            <div class="counter">
+                <h1>+ <span class="cislo" data-count="500" alt="AutoServis Šlapanice - Počet Opravených Aut"></span>
+                </h1>
+                <h3>Opraveno Aut</h3>
+            </div>
+            <div class="counter">
+                <h1><span class="cislo" data-count="5" alt="AutoServis Šlapanice - Počet hvězdiček">/</span>/5</h1>
+                <h3>Počet Hvězdiček</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Show Cards - Autoservis Elen Šlapanice -->
+    <section id="nabidka-Slapanice"></section>
+    <h1 id="nabidka"> Co nabízíme</h1>
+    <div class="cards__container">
+        <a id="remove_a" href="podstranky/prevodovky.html">
+            <div class="card">
+
+                <img src="pictures/mechanika.jpg" alt="Autoservis Elen - Šlapanice mechanika">
+                <div class="cards__content">
+                    <h3>Opravy Převodovek</h3>
+                    <p>Nabízíme odborné opravy převodovek. Ať už jde o manuální, automatické nebo robotizované
+                        převodovky, postaráme se o to, aby váš vůz opět jezdil jako nový.</p>
+                    <a href="podstranky/prevodovky.html" class="tlacitko">Více</a>
+
+                </div>
+        </a>
+    </div>
+
+    <a id="remove_a" href="podstranky/pneuservis.html">
+        <div class="card">
+            <img src="pictures/prezouvani.jpg" alt="Autoservis Elen - Šlapanice Pneuservis">
+            <div class="cards__content">
+                <h3>Pneuservis</h3>
+                <p>V rámci portfolia nabízíme i možnost využití veškerých služeb našeho pneuservisu.</p>
+                <a href="podstranky/pneuservis.html" class="tlacitko">Více</a>
+            </div>
+    </a>
+    </div>
+    <a id="remove_a" href="podstranky/motor.html">
+        <div class="card">
+            <img src="pictures/diagnostika.jpg" alt="Autoservis Elen - Šlapanice Diagnostika">
+            <div class="cards__content">
+                <h3>Oprava Motoru</h3>
+                <p>Provádíme opravy motorů pro všechny značky vozidel. Rychlá diagnostika, kvalitní opravy a spolehlivý
+                    servis za rozumnou cenu. Přijďte k nám a postaráme se o váš motor!</p>
+                <a href="podstranky/motor.html" class="tlacitko">Více</a>
+            </div>
+        </div>
+    </a>
+    </div>
+
+
+    <div class="cards__container">
+        <a id="remove_a" href="podstranky/led.html">
+            <div class="card">
+                <img src="pictures/ledky.jpeg" alt="Autoservis Elen - Šlapanice Instalace LED žárovek">
+                <div class="cards__content">
+                    <h3>Instalace LED žárovek</h3>
+                    <p>Nejste spokojeni s tím, jak Váš vůz ve tmě svítí? Nabízíme účinné řešení! Kromě renovace
+                        samotných světlometů se specializujeme na montáž LED žárovek pro všechny značky vozidel.</p>
+                    <a href="podstranky/led.html" class="tlacitko">Více</a>
+                </div>
+            </div>
+        </a>
+        <a id="remove_a" href="podstranky/elektroinstalace.html">
+            <div class="card">
+                <img src="pictures/elektro.jpeg" alt="Autoservis Elen - Šlapanice Oprava Elektroinstalace">
+                <div class="cards__content">
+                    <h3>Opravy Elektroinstalace</h3>
+                    <p>Elektronika umí občas pěkně pozlobit. Ať už Vás trápí jakýkoliv problém spojený
+                        s elektroinstalací ve Vašem voze, neváhejte se na nás obrátit.</p>
+                    <a href="podstranky/elektroinstalace.html" class="tlacitko">Více</a>
+                </div>
+            </div>
+        </a>
+        <a id="remove_a" href="podstranky/montaz.html">
+            <div class="card">
+                <img src="pictures/tazne.jpeg" alt="Autoservis Elen - Šlapanice mechanika">
+                <div class="cards__content">
+                    <h3>Dodatečná montáž vybavení</h3>
+                    <p>Chybí Vašemu vozidlu například parkovací senzory, parkovací kamera, tažné zařízení apod.? Rádi
+                        Vám toto vybavení na vůz dodatečně namontujeme.</p>
+                    <a href="podstranky/montaz.html" class="tlacitko">Více</a>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="cards__container">
+        <a id="remove_a" href="podstranky/kodovani.html">
+            <div class="card">
+                <img src="pictures/kodovani.jpeg" alt="Autoservis Elen - Šlapanice Kodovaní">
+                <div class="cards__content">
+                    <h3>Kódovaní</h3>
+                    <p>Pro vozy značek Škoda, Volkswagen, Seat a Audi nabízíme možnost zpřístupnění určitých funkcí,
+                        jako např. Vypnutí start-stop funkce, aktivování asistenta rozjezdu do kopce atd.</p>
+                    <a href="podstranky/kodovani.html" class="tlacitko">Více</a>
+                </div>
+            </div>
+        </a>
+        <a id="remove_a" href="podstranky/servisklima.html">
+            <div class="card">
+                <img src="pictures/klima.jpeg" alt="Autoservis Elen - Šlapanice Servis klimatizaci a dezifenkce">
+                <div class="cards__content">
+                    <h3>Servis klimatizací a dezifenkce</h3>
+                    <p>Nechladí Vám klimatizace v autě tak, jak by správně měla? Zastavte se za námi na kontrolu či
+                        údržbu celého systému.</p>
+                    <a href="podstranky/servisklima.html" class="tlacitko">Více</a>
+                </div>
+            </div>
+        </a>
+        <a id="remove_a" href="podstranky/stk.html">
+            <div class="card">
+                <img src="pictures/stk.jpg" alt="Autoservis Elen - Šlapanice Priprava na STK">
+                <div class="cards__content">
+                    <h3>Příprava na STK</h3>
+                    <p>Jednou za dva roky to čeká každého z nás - STK. Obzvláště v dnešní době, kdy se pravidla stále
+                        zpřísňují, může být technická kontrola strašákem pro nejednoho motoristu. Připravíme Váš vůz a
+                        provedeme STK za Vás!</p>
+                    <a href="podstranky/stk.html" class="tlacitko">Více</a>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="cards__container">
+        <a id="remove_a" href="podstranky/porada.html">
+            <div class="card">
+                <img src="pictures/kodovani.jpeg" alt="Autoservis Elen - Šlapanice Kodovaní">
+                <div class="cards__content">
+                    <h3>Poradenství při koupi vozidla</h3>
+                    <p>Chystáte se koupit ojeté nebo nové vozidlo a bojíte se, že se spálíte? Nabízíme odborné
+                        poradenství, které Vám pomůže vybrat vůz v perfektním technickém stavu a vyhnout se zbytečným
+                        výdajům za skryté vady.</p>
+                    <a href="podstranky/porada.html" class="tlacitko">Více</a>
+                </div>
+            </div>
+        </a>
+        <a id="remove_a" href="podstranky/pujcovani.html">
+            <div class="card">
+                <img src="pictures/klima.jpeg" alt="Autoservis Elen - Šlapanice Servis klimatizaci a dezifenkce">
+                <div class="cards__content">
+                    <h3>Zapůjčení náhradního vozidla</h3>
+                    <p>Nechladí Vám klimatizace v autě tak, jak by správně měla? Zastavte se za námi na kontrolu či
+                        údržbu celého systému.</p>
+                    <a href="podstranky/pujcovani.html" class="tlacitko">Více</a>
+                </div>
+            </div>
+        </a>
+        <a id="remove_a" href="podstranky/chiptuning.html">
+            <div class="card">
+                <img src="pictures/klima.jpeg" alt="Autoservis Elen - Šlapanice Servis klimatizaci a dezifenkce">
+                <div class="cards__content">
+                    <h3>Chiptuning</h3>
+                    <p>Nechladí Vám klimatizace v autě tak, jak by správně měla? Zastavte se za námi na kontrolu či
+                        údržbu celého systému.</p>
+                    <a href="podstranky/chiptuning.html" class="tlacitko">Více</a>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Footer - Autoservis Elen Šlapanice -->
+    <section id="info-Slapanice"></section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Firma</h4>
+                    <ul>
+                        <li><a href="#domu-Slapanice">❓ Kdo jsme?</a></li>
+                        <li><a href="#nabidka-Slapanice">💼 Co nabízíme?</a></li>
+                        <li><a href="clanky/index.html">📈 Články</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Pobočky</h4>
+                    <ul>
+                        <li><a href="#">Autoservis Elen Šlapanice</a></li>
+                        <li><a href="../index.html">Autoservis Elen Černovice</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontaktovat</h4>
+                    <ul>
+                        <li id="copy_onclick"><a href="#">📧 autoserviselen@gmail.com</a></li>
+                        <li id="copy_onclick" class="cajicek"><a href="#" type="tel">📞 +420 739 356 696</a></li>
+                        <li><a href="https://maps.app.goo.gl/pjRNha9SvFnfjU987">📍 Čechova 324/35, 664 51 Šlapanice
+                                u
+                                Brna</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sledujte Nás</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/autoserviselen"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- All rights reserved - Autoservis Elen Šlapanice -->
+    <div class="mapa">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.8595654618794!2d16.723246976864967!3d49.16527377906056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712eb996e922363%3A0x98b9516ff5cf0577!2sAutoservis%20ELEN!5e0!3m2!1scs!2scz!4v1729607141487!5m2!1scs!2scz"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" alt="Autoservis Elen - Šlapanice Google Maps"></iframe>
+        <div class="close_logo">
+            <img src="pictures/logo.png" alt="Autoservis Elen - Šlapanice Logo">
+            <h2>AutoServis Elen Šlapanice</h2>
+        </div>
+        <div class="e">
+            <a href="#" id="datum" class="website__right">© Autoservis Elen - Šlapanice 2024. Všechna Práva
+                Vyhrazena</a>
+        </div>
+    </div>
+</body>
+
+</html>
